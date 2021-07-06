@@ -177,7 +177,7 @@
     "*.js|{lib,setup,bin,hot,tooling,schemas}/**/*.js|test/*.js|{test,examples}/**/webpack.config.js}": [
       "eslint --cache"
     ],
-    "*.{ts,json,yml,yaml,md}|examples/*.md": [
+    "*.{ts,json,yml,yaml}|examples/*.md": [
       "prettier --check"
     ],
     "*.md|{.github,benchmark,bin,examples,hot,lib,schemas,setup,tooling}/**/*.{md,yml,yaml,js,json}": [
